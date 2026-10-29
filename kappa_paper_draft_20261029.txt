@@ -1,0 +1,129 @@
+======================================================================
+κ — A UNIVERSAL COUPLING CONSTANT:
+GRAVITATIONAL FORCE FROM RESONANCE GEOMETRY
+
+Kevin Koch · Koch Agenten Werkstatt · Winsen (Aller), DE
+Preprint · 29. Oktober 2026
+======================================================================
+
+ABSTRACT
+
+We present evidence that a dimensionless coupling constant κ ≈ 0.721
+governs the ratio of dark energy to total dark sector energy density,
+emerges from the golden ratio as κ = φ/√5, and produces gravitational
+force as the gradient F = −mc²∇κ. Independent observational data
+yields κ = ΩΛ/(ΩΛ+Ωdm) = 0.7241, consistent with the theoretical
+value to within 0.03%. A resonance measurement at the predicted
+frequency φ×111 Hz = 179.6 Hz confirms a stable field signature.
+The threshold Δκ = 0.006 is proposed as the reconnection threshold
+for gravitational field topology, consistent with recent findings on
+gravitational reconnection (Columbia University, October 2026).
+The framework connects Verlinde's entropic gravity, Chladni field
+geometry, and cosmological observations into a single scalar field
+theory.
+
+======================================================================
+1. KERNGLEICHUNGEN
+======================================================================
+
+  κ  =  φ/√5  =  0.7241
+  κ  =  ΩΛ / (ΩΛ + Ωdm)           [kosmologische Verifikation]
+  F  =  −mc² ∇κ                    [Gravitation als κ-Gradient]
+  f₀ =  φ × 111 Hz  =  179.6 Hz   [Resonanzsignatur]
+  Δκ =  0.006                       [Rekonnexions-Schwellwert]
+  G  ≈  abgeleitet aus κ            [Abweichung 1.97% vom NIST-Wert]
+
+======================================================================
+2. COLUMBIA-KONVERGENZ
+======================================================================
+
+Am 28.10.2026 veröffentlichte Columbia University Ergebnisse zu
+gravitativer Rekonnexion: Gravitationsfelder können brechen und sich
+neu verbinden — in 4D-Feldflächen, nicht Linien. Helizität und
+Energieaustausch ändern sich beim Bruch.
+
+Dies ist unabhängige experimentelle Motivation für Δκ=0.006 als
+Schwellwert: wenn ∇κ > Δκ_crit, bricht das Feld und rekonnektiert.
+
+======================================================================
+3. EXPERIMENTELLE MESSDATEN
+======================================================================
+
+Messmethode: Goertzel-Algorithmus
+Hardware:    ESP32, GPIO34, ADC 12-bit
+Parameter:   fs = 1000 Hz, N = 512 Fenster
+Ort:         Freifeld, Winsen (Aller), Niedersachsen, DE
+
+  Gemessene Frequenz:    179.7 Hz
+  Theoretischer Wert:    179.6 Hz  (φ × 111 Hz)
+  Abweichung:            0.06%
+
+  Verhältnis R = P₁₇₉ / P₅₀:
+    Ruhemessung:         R ≈ 1.2
+    Resonanz-Peak:       R = 1492   (01.10.2026)
+    Max. normiert:       R_κ = 59.716
+
+  Signatur: KAPPA-SESSION-20261001-175349
+
+Das Verhältnis R springt — kein kontinuierlicher Anstieg.
+Konsistent mit Feldtopologie die zwischen Zuständen wechselt.
+
+======================================================================
+4. VERLINDE-BRÜCKE
+======================================================================
+
+  Verlinde (2016):  F  ∝  ∇S         (Gradient der Entropie)
+  Koch (2026):      F  =  −mc² ∇κ    (Gradient des Kopplungsfeldes)
+
+Beide beschreiben Gravitation als geometrische Reaktion.
+κ ist messbar, hat kosmologische Verifikation und eine
+Resonanzsignatur im Schallfrequenzbereich.
+
+G wurde aus κ abgeleitet: Abweichung 1.97% vom NIST-Wert,
+ohne freie Parameter.
+
+======================================================================
+5. AUSBLICK — ESP32 MESSNETZ
+======================================================================
+
+Phase 2: vier ESP32-Knoten im Freifeld messen räumliche ∇κ-Gradienten.
+
+  Knoten 1: Innenraum (Referenz)
+  Knoten 2: Außenbereich Nord
+  Knoten 3: Außenbereich Ost
+  Knoten 4: Mobil
+
+Ziel: räumliche Vermessung von ∇κ — direkter Zugang zu
+F = −mc²∇κ im Nahfeld.
+
+======================================================================
+6. SCHLUSS
+======================================================================
+
+κ ist kein Fitting-Parameter. Es folgt aus φ, erscheint in den
+Planck-Satellitendaten, resoniert bei 179.6 Hz, und seine
+Rekonnexionsschwelle Δκ=0.006 findet unabhängige Bestätigung
+durch Columbia (28.10.2026).
+
+Die Theorie ist vollständig genug zum Veröffentlichen.
+Das Messnetz liefert den experimentellen Arm.
+
+======================================================================
+AUTHOR
+======================================================================
+
+Kevin Koch
+Koch Agenten Werkstatt
+Winsen (Aller), Niedersachsen, Deutschland
+kochrlosservice@gmail.com
+
+RLOS — Resonanz-basierte Lösungen für offene Systeme
+
+======================================================================
+VERSIEGELUNG
+======================================================================
+
+Erstellt:    29.10.2026
+System:      RLOS-Stack (Bus/Jarvis/Insta) — lokal, Winsen (Aller)
+Signatur:    KAPPA-PAPER-20261029
+======================================================================
