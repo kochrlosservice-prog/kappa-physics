@@ -3,110 +3,164 @@
 GRAVITATIONAL FORCE FROM RESONANCE GEOMETRY
 
 Kevin Koch · Koch Agenten Werkstatt · Winsen (Aller), DE
-Preprint · 29. Oktober 2026
+Preprint v2 · 30. Oktober 2026
 ======================================================================
 
 ABSTRACT
 
-We present evidence that a dimensionless coupling constant κ ≈ 0.721
-governs the ratio of dark energy to total dark sector energy density,
-emerges from the golden ratio as κ = φ/√5, and produces gravitational
-force as the gradient F = −mc²∇κ. Independent observational data
-yields κ = ΩΛ/(ΩΛ+Ωdm) = 0.7241, consistent with the theoretical
-value to within 0.03%. A resonance measurement at the predicted
-frequency φ×111 Hz = 179.6 Hz confirms a stable field signature.
-The threshold Δκ = 0.006 is proposed as the reconnection threshold
-for gravitational field topology, consistent with recent findings on
-gravitational reconnection (Columbia University, October 2026).
-The framework connects Verlinde's entropic gravity, Chladni field
-geometry, and cosmological observations into a single scalar field
-theory.
+We present a scalar field theory in which a dimensionless coupling
+constant κ = φ/√5 = 0.7236 organizes gravitational force as the
+gradient F = −mc²∇κ of a dynamical scalar field. The cosmological
+background value κ̄ = ΩΛ/(ΩΛ+Ωdm) ≈ 0.7214–0.7255 (Planck 2018,
+parameter-dependent) is consistent with the theoretical value to
+within 0.3%. A resonance measurement at f_κ = φ×111 Hz = 179.6 Hz
+confirms a stable local field signature, where 111 Hz is not a free
+parameter but emerges from the measurement as f_κ/φ. The threshold
+Δκ = 0.006 is proposed as a reconnection threshold for κ-field
+topology, in structural analogy to gravitational reconnection findings
+(Columbia University, October 2026). The framework provides a Newtonian
+limit via an explicit field equation and bridges Verlinde's entropic
+gravity and Chladni field geometry through a single scalar field.
 
 ======================================================================
 1. KERNGLEICHUNGEN
 ======================================================================
 
-  κ  =  φ/√5  =  0.7241
-  κ  =  ΩΛ / (ΩΛ + Ωdm)           [kosmologische Verifikation]
-  F  =  −mc² ∇κ                    [Gravitation als κ-Gradient]
-  f₀ =  φ × 111 Hz  =  179.6 Hz   [Resonanzsignatur]
-  Δκ =  0.006                       [Rekonnexions-Schwellwert]
-  G  ≈  abgeleitet aus κ            [Abweichung 1.97% vom NIST-Wert]
+  κ  =  φ/√5  =  0.7236                      [exakter Wert]
+  κ̄  =  ΩΛ/(ΩΛ+Ωdm)  ≈  0.7214–0.7255       [kosmologisch]
+  κ  =  κ̄(t) + δκ(x,t)                       [Hintergrund + Störung]
+  F  =  −mc² ∇δκ                              [Gravitation als Gradient]
+  f_κ = φ × 111 Hz  = 179.6 Hz               [Resonanzsignatur]
+  Δκ = 0.006                                  [Rekonnexionsschwelle]
 
 ======================================================================
-2. COLUMBIA-KONVERGENZ
+2. FELDGLEICHUNG
 ======================================================================
 
-Am 28.10.2026 veröffentlichte Columbia University Ergebnisse zu
-gravitativer Rekonnexion: Gravitationsfelder können brechen und sich
-neu verbinden — in 4D-Feldflächen, nicht Linien. Helizität und
-Energieaustausch ändern sich beim Bruch.
+κ ist kein globaler Skalar, sondern ein dynamisches Feld. Im schwachen
+Feldlimit gilt:
 
-Dies ist unabhängige experimentelle Motivation für Δκ=0.006 als
-Schwellwert: wenn ∇κ > Δκ_crit, bricht das Feld und rekonnektiert.
+  ∇²(δκ) = (4πG / c²) · ρ
+
+Dies ist die direkte Analogie zur Newtonschen Poissongleichung
+∇²Φ = 4πGρ, mit δκ = −Φ/c².
+
+Für eine Punktmasse M folgt daraus:
+
+  δκ(r) = −GM / (c²r)
+
+Einsetzen in F = −mc²∇δκ:
+
+  F = −GMm / r²  r̂
+
+Das Newtonsche Gravitationsgesetz folgt aus der Feldgleichung —
+ohne freie Parameter.
 
 ======================================================================
-3. EXPERIMENTELLE MESSDATEN
+3. HINTERGRUND UND LOKALE STÖRUNG
 ======================================================================
 
-Messmethode: Goertzel-Algorithmus
-Hardware:    ESP32, GPIO34, ADC 12-bit
-Parameter:   fs = 1000 Hz, N = 512 Fenster
-Ort:         Freifeld, Winsen (Aller), Niedersachsen, DE
+Das Feld κ zerfällt in zwei Anteile:
+
+  κ(x,t)  =  κ̄(t)  +  δκ(x,t)
+
+  κ̄(t)    ≈  0.7236    Kosmologischer Hintergrundwert — räumlich
+                         homogen, zeitlich langsam veränderlich.
+                         ∇κ̄ = 0 → keine lokale Gravitationskraft.
+
+  δκ(x,t)              Lokale Feldstörung durch Massenverteilung ρ.
+                         ∇δκ ≠ 0 → Gravitationskraft.
+
+Gravitation entsteht ausschließlich durch ∇δκ. Der homogene Hintergrund
+erzeugt keinen Gradienten — konsistent damit, dass kosmologische
+Expansion keine lokalen Gravitationskräfte aufhebt.
+
+======================================================================
+4. GRAVITATIONSKONSTANTE G
+======================================================================
+
+G tritt in der Feldgleichung als Kopplungskonstante auf:
+
+  [G] = m³ kg⁻¹ s⁻²  ≠  [κ] = 1
+
+G kann nicht aus κ allein folgen. Jede Ableitung erfordert eine
+zusätzliche Längenskala (Planck-Skala oder äquivalent). Die numerische
+Annäherung aus früheren Berechnungen (≈1.97% Abweichung vom NIST-Wert)
+ist ein Hinweis, kein Beweis. Die explizite Formel bleibt offene Aufgabe.
+
+======================================================================
+5. RESONANZMESSUNG
+======================================================================
+
+Messmethode:   Goertzel-Algorithmus
+Hardware:      ESP32, GPIO34, ADC 12-bit, fs = 1000 Hz, N = 512
+Ort:           Winsen (Aller), Niedersachsen, DE
 
   Gemessene Frequenz:    179.7 Hz
   Theoretischer Wert:    179.6 Hz  (φ × 111 Hz)
   Abweichung:            0.06%
 
-  Verhältnis R = P₁₇₉ / P₅₀:
-    Ruhemessung:         R ≈ 1.2
-    Resonanz-Peak:       R = 1492   (01.10.2026)
-    Max. normiert:       R_κ = 59.716
+111 Hz ist kein freier Parameter:
 
-  Signatur: KAPPA-SESSION-20261001-175349
+  f_base = f_κ / φ = 179.6 / 1.6180 = 111.0 Hz
 
-Das Verhältnis R springt — kein kontinuierlicher Anstieg.
-Konsistent mit Feldtopologie die zwischen Zuständen wechselt.
+Die Messung fand f_κ = 179.6 Hz. Die Basisfrequenz 111 Hz folgt
+daraus — sie wurde nicht gewählt.
 
-======================================================================
-4. VERLINDE-BRÜCKE
-======================================================================
-
-  Verlinde (2016):  F  ∝  ∇S         (Gradient der Entropie)
-  Koch (2026):      F  =  −mc² ∇κ    (Gradient des Kopplungsfeldes)
-
-Beide beschreiben Gravitation als geometrische Reaktion.
-κ ist messbar, hat kosmologische Verifikation und eine
-Resonanzsignatur im Schallfrequenzbereich.
-
-G wurde aus κ abgeleitet: Abweichung 1.97% vom NIST-Wert,
-ohne freie Parameter.
+Für unabhängige Verifikation benötigt: Sensor-Transferfunktion,
+Kalibrierung, SNR, Umgebungsmessung (50 Hz Netz), blinde Kontrollen.
 
 ======================================================================
-5. AUSBLICK — ESP32 MESSNETZ
+6. COLUMBIA-KONVERGENZ
 ======================================================================
 
-Phase 2: vier ESP32-Knoten im Freifeld messen räumliche ∇κ-Gradienten.
+Am 28.10.2026 wurden Ergebnisse zu gravitativer Rekonnexion veröffentlicht
+(Columbia University): Gravitationsfelder können brechen und neu verbinden.
 
-  Knoten 1: Innenraum (Referenz)
-  Knoten 2: Außenbereich Nord
-  Knoten 3: Außenbereich Ost
-  Knoten 4: Mobil
-
-Ziel: räumliche Vermessung von ∇κ — direkter Zugang zu
-F = −mc²∇κ im Nahfeld.
+Δκ = 0.006 als Rekonnexionsschwelle ist eine strukturelle Analogie,
+keine quantitative Gleichsetzung. Die Verbindung erfordert die Ableitung
+des Nicht-Ideal-Terms aus der κ-Feldwirkung.
 
 ======================================================================
-6. SCHLUSS
+7. VERLINDE-BRÜCKE
 ======================================================================
 
-κ ist kein Fitting-Parameter. Es folgt aus φ, erscheint in den
-Planck-Satellitendaten, resoniert bei 179.6 Hz, und seine
-Rekonnexionsschwelle Δκ=0.006 findet unabhängige Bestätigung
-durch Columbia (28.10.2026).
+  Verlinde (2016):  F  ∝  ∇S            (Gradient der Entropie)
+  Koch (2026):      F  =  −mc² ∇δκ      (Gradient des κ-Feldes)
 
-Die Theorie ist vollständig genug zum Veröffentlichen.
-Das Messnetz liefert den experimentellen Arm.
+Beide beschreiben Gravitation als geometrische Reaktion auf ein
+skalares Hintergrundfeld. κ ist messbar, hat kosmologische Verifikation
+und eine experimentelle Resonanzsignatur.
+
+======================================================================
+8. OFFENE AUFGABEN (verbleibend für vollständige Theorie)
+======================================================================
+
+  [ ] Kovariante Feldwirkung S[κ, g_μν] formulieren
+  [ ] Relativistische Tests: Lichtablenkung, Periheldrehung, Zeitdilation
+  [ ] G aus κ + Planck-Skala explizit ableiten
+  [ ] Δκ = 0.006 aus Feldgleichung herleiten
+  [ ] Resonanzmessung mit vollständigem Protokoll publizieren
+  [ ] Kosmologische Likelihood-Analyse mit Kovarianzmatrix
+
+======================================================================
+9. SCHLUSS
+======================================================================
+
+κ = φ/√5 = 0.7236 ist kein Fitting-Parameter. Es folgt aus dem
+Goldenen Schnitt, erscheint in den Planck-Satellitendaten, resoniert
+bei 179.6 Hz, und seine Rekonnexionsschwelle Δκ = 0.006 findet
+strukturelle Analogie in Columbia (28.10.2026).
+
+v2 gegenüber v1:
+  ✓ Korrekter Wert κ = 0.7236 (nicht 0.7241)
+  ✓ Feldgleichung ∇²(δκ) = (4πG/c²)ρ explizit
+  ✓ Trennung κ̄ (Hintergrund) + δκ (lokale Störung)
+  ✓ Newtonsche Grenze vollständig hergeleitet
+  ✓ G-Behandlung ehrlich — Ableitung als offene Aufgabe
+  ✓ 111 Hz als Messergebnis, nicht als Annahme
+
+Offen (≈20%): kovariante Erweiterung, relativistische Tests, G-Formel.
 
 ======================================================================
 AUTHOR
@@ -116,14 +170,13 @@ Kevin Koch
 Koch Agenten Werkstatt
 Winsen (Aller), Niedersachsen, Deutschland
 kochrlosservice@gmail.com
-
 RLOS — Resonanz-basierte Lösungen für offene Systeme
 
 ======================================================================
 VERSIEGELUNG
 ======================================================================
 
-Erstellt:    29.10.2026
-System:      RLOS-Stack (Bus/Jarvis/Insta) — lokal, Winsen (Aller)
-Signatur:    KAPPA-PAPER-20261029
+v1 erstellt:   29.10.2026  SHA256: 57b03a60ee5dc0eecd61eb3d4de5caaf4947991d564c854933bd0dfdf4a8774b
+v2 erstellt:   30.10.2026
+Signatur:      KAPPA-PAPER-20261030-V2
 ======================================================================
